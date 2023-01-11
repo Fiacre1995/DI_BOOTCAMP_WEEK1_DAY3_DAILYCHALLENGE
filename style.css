@@ -1,0 +1,26 @@
+body {
+    height: 1000px;
+}
+
+#grid {
+    display: grid;
+    grid-template-columns: 200px 100px 100px 100px 200px 500px;
+    grid-template-rows: 50px 50px 50px 50px;
+    
+}
+
+#petite-grid1, #petite-grid2, #petite-grid3,#petite-grid4 {
+    margin-top: 130px;
+}
+#grid5 {
+    margin-right: 0px;
+}
+
+.petite-grid{
+    background-color: rgb(251, 255, 5);
+    display: grid;
+    border: 2px solid black;
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+}
